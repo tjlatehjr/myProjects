@@ -1,0 +1,272 @@
+/* SIGN UP PAGE STYLES */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.bg-wrapper {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.form-div {
+    height: 57.6rem;
+    width: 44.3%;
+    background-color: white;
+    position: absolute;
+    padding: 2rem;
+    box-sizing: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-area {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.image-area img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-area {
+    height: 100%;
+    width: 50%;
+    padding: 4.5rem;
+    box-sizing: border-box;
+    float: left;
+}
+
+.form-area h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2.8rem;
+    position: relative;
+}
+
+.field-div-1,
+.field-divs {
+    height: 3rem;
+    margin-bottom: 2.8rem;
+}
+
+.field-div-1 input {
+    padding: .3rem 0;
+    width: 46%;
+    display: block;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 0;
+    border-bottom: .1rem solid black;
+    box-sizing: inherit;
+    float: left;
+}
+
+.field-div-1 input:last-child {
+    margin-right: 0;
+}
+
+.field-divs input {
+    padding: .3rem 0;
+    width: 100%;
+    display: block;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border: 0;
+    border-bottom: .1rem solid black;
+    box-sizing: inherit;
+    float: left;
+}
+
+.form-area label {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #707070;
+    display: block;
+}
+
+.form-area p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #707070;
+    margin-left: .5rem;
+    display: inline;
+}
+
+#cb {
+    margin-top: .5rem;
+    margin-bottom: 2.5rem;
+    padding: 1rem 0;
+}
+
+#cb:nth-of-type(2) {
+    margin-left: 4rem;
+}
+
+#button {
+    width: 16.4rem;
+    height: 5.1rem;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+/* LOG IN PAGE STYLES  */
+
+.wrap {
+    height: 90vh;
+    width: 100%;
+}
+
+.leftbg {
+    height: 100%;
+    width: 72%;
+    background-image: url('../img/login-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.login-form {
+    height: 100%;
+    width: 28%;
+    background-color: #f7f7f7;
+    padding: 17.3rem 5.5rem 5.5rem 5.5rem;
+    float: left;
+}
+
+.login-form h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #333;
+    line-height: 1.2;
+    padding-bottom: 4.3rem;
+    text-align: center;
+}
+
+.login-form .main-inputs {
+    height: 8rem;
+    width: 100%;
+    padding: 0 2.6rem;
+    background: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #555;
+    border: .1rem solid #e6e6e6;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ckbx-fgme {
+    display: flex;
+    width: 100%;
+    padding: .3rem 0 3.2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-box {
+    display: inline-block;
+}
+
+.check-box label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #999;
+    padding-left: .5rem;
+    cursor: pointer;
+}
+
+.ckbx-fgme a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #999;
+}
+
+.login-btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    background: #6675df;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(to right, #f7f7f7, #1f1f1f80);
+    box-sizing: border-box;
+    border-top: 1px solid #1f1f1f1c;
+    padding: 2rem 0;
+}
+
+footer span {
+    font-size: 2.5rem;
+    font-family: "Harrington";
+    color: #333;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    margin-bottom: .5rem;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
